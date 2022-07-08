@@ -38,7 +38,7 @@ export function changeColor(element, color){
 
 //buscar cor que mais combina com a imagem (ou quase)
 function colorContrast(color, mode){
-    fetch(` https://www.thecolorapi.com/scheme?hex=${color.replace("#", "")}&format=json&mode=${mode}&count=8`, {
+    fetch(`https://www.thecolorapi.com/scheme?hex=${color.replace("#", "")}&format=json&mode=${mode}&count=8`, {
 
     }).then((res) => {
         return res.json()
@@ -74,7 +74,7 @@ function backgroundOfTheDay() {
     //let cpr = document.getElementById('footer')
 
 
-    const url = `https://api.pexels.com/v1/search?query=${themes()}+${dayOrNigth()}` 
+    const url = `https://api.pexels.com/v1/search?query=${themes()}+${dayOrNigth()}&page=${rdm(6)}` 
 
     console.log(url)
     fetch(url, {
