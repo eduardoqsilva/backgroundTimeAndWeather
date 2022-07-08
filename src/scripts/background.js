@@ -74,7 +74,7 @@ function backgroundOfTheDay() {
     //let cpr = document.getElementById('footer')
 
 
-    const url = `https://api.pexels.com/v1/search?query=${themes()}+${dayOrNigth()}&page=${rdm(6)}` 
+    const url = `https://api.pexels.com/v1/search?query=${themes()}+${dayOrNigth()}&page=${rdm(6)}&orientation=landscape` 
 
     console.log(url)
     fetch(url, {
