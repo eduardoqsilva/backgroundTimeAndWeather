@@ -90,7 +90,7 @@ function backgroundOfTheDay() {
   
         let color = data.photos[randnum].avg_color
         console.log("Cor base:" + color)
-        colorContrast(color, "monochrome-dark")
+        colorContrast(color, "triad")
         
         bgUrl(dataUrl)
 
