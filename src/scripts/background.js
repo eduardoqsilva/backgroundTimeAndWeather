@@ -32,8 +32,9 @@ function themes(){
 }
 
 //trocar a cor de fundo de um elemento qualquer
-export function changeColor(element, color){
-    element.style.color = color
+function changeColor(element, color){
+
+    element.style.color = `${color}`
 }
 
 //buscar cor que mais combina com a imagem (ou quase)
@@ -79,7 +80,8 @@ function backgroundOfTheDay() {
     console.log(url)
     fetch(url, {
         headers: {
-            Authorization: "563492ad6f91700001000001e9c75013e39448ea8fddca51ef8a1972"
+            Authorization: "563492ad6f917000010000019accd197c1ad46acb4939b28548a3e2d"
+            
         }
     }).then((res) => {
         return res.json()
@@ -90,7 +92,7 @@ function backgroundOfTheDay() {
   
         let color = data.photos[randnum].avg_color
         console.log("Cor base:" + color)
-        colorContrast(color, "triad")
+        colorContrast(color, "monochrome-light")
         
         bgUrl(dataUrl)
 

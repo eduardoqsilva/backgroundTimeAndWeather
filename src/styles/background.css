@@ -24,7 +24,7 @@
     text-align: center;
     top: 100px;
     left: calc(50% - 200px);
-
+    color: #FFFFFF;
 }
 
 .clock-cont > p {
