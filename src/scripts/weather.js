@@ -1,5 +1,5 @@
 //localização
-let localization = normalize("Santa helena de goiás")
+let localization = normalize("auto:ip")
 //url + key api
 const key = 'c044b0a7b5094428bde150954220707'
 const url = `https://api.weatherapi.com/v1/current.json?key=${key}&q=${localization}&aqi=no&lang=pt`
