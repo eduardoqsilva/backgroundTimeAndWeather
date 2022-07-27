@@ -8,10 +8,13 @@ Uma simples página web capaz de pegar a temperatura atual e definir um plano de
 ![](https://cdn.discordapp.com/attachments/1001677903400030212/1001677973998546985/unknown.png)
 
 
+## 🛠 Tecnologias Utilizadas
+Javascript, HTML, CSS
+
+
 ## Autor
 
 - [@Eduardo Queiroz](https://github.com/eduardoqsilva)
 
 
-## 🛠 Tecnologias Utilizadas
-Javascript, HTML, CSS
+
