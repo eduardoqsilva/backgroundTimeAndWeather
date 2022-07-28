@@ -5,8 +5,9 @@ Uma simples página web capaz de pegar a temperatura atual e definir um plano de
 
 ## Demonstração
 
-![](https://cdn.discordapp.com/attachments/1001677903400030212/1001677973998546985/unknown.png)
 ![](https://media.discordapp.net/attachments/1001677903400030212/1002353037874053153/unknown.png)
+
+![](https://cdn.discordapp.com/attachments/1001677903400030212/1001677973998546985/unknown.png)
 
 ## 🛠 Tecnologias Utilizadas
 Javascript, HTML, CSS
