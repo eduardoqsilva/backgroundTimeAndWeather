@@ -38,6 +38,7 @@
     position: absolute;
     top: -29px;
     right: 0px;
+    padding: 10px;
 }
 .icon{
     width: 60px;
@@ -72,6 +73,31 @@
     padding-right: 30px;
     font-size: 15px;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.footer p > a{
+    color: #ffffff97;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.footer p > a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px){
+    #clock{
+        font-size: 100px;
+    }
+    #day{
+        font-size: 20px;
+    }
+    .weather{
+        top: -29px;
+        right: 69px;
+    }
 }
 
 
